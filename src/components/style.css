@@ -1,0 +1,131 @@
+#root {
+    background-color: #150050;
+    display: flex;
+    justify-content: center;
+}
+
+.wizard {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    height: 100%;
+    width: 50%;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.wizard h1 {
+    font-size: 48px;
+}
+
+.pasos {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    margin: 24px 0px 24px 0px;
+    background-color: #3f0071;
+    border-radius: 16px;
+}
+
+.paso-actual {
+    background-color: #fb2576;
+    padding: 5px 30px;
+    border-radius: 12px;
+}
+
+.link {
+    text-decoration: none;
+    color: #ffffff
+}
+
+.formInfo {
+    padding: 24px 0;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding: 24px 0 0 0;
+}
+
+.boton-ant {
+    background-color: #3f0071;
+    color: #fb2576;
+    width: 120px;
+    height: 48px;
+}
+
+.boton-sig {
+    background-color: #3f0071;
+    color: #fb2576;
+    width: 120px;
+    height: 48px;
+}
+
+.boton-sig {
+    background-color: #3f0071;
+    color: #fb2576;
+    width: 120px;
+    height: 48px;
+}
+
+.resumen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.resumen-title {
+    color: #fb2576;
+    margin-top: 40px;
+}
+
+.resumen-info {
+    display: grid;
+    gap: 24px;
+    padding: 40px 0 100px 0;
+    grid-template-columns: repeat(3, 1fr);
+    color: #ffffff;
+    width: 80%;
+}
+
+.container {
+    background-color: #3f0071;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 4px 4px 8px 4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 4px 8px 4px rgba(0,0,0,0.75);
+    box-shadow: 4px 4px 8px 4px rgba(0,0,0,0.75);
+}
+
+.container > h2 {
+    color: #fb2576;
+    padding: 6px 0 0 0;
+}
+
+.datos {
+    padding: 0 16px;
+}
+
+.resumen-text span:nth-child(1){
+    display: block;
+    float:left;
+    width: 180px;
+    color: #fb2576;
+    font-weight: bold;
+}
+
+.resumen-text span:nth-child(2){
+    /* display: block;
+    float:left; */
+}
